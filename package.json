@@ -1,0 +1,17 @@
+{
+  "name": "code3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx codeceptjs run",
+    "parallel": "npx codeceptjs run-workers 6"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.0.1",
+    "playwright": "^1.5.1"
+  }
+}
